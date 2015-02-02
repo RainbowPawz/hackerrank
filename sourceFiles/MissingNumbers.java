@@ -41,10 +41,6 @@ public class Solution {
     
     static ArrayList<String> getValue(Map<String, Integer> hash, Map<String, Integer> hash2)
     {
-        String thisInt = "";
-        String returnSting="";
-        int count = 0;
-        
         ArrayList<String> missingNumbersList = new ArrayList<String>();
         
         for (Map.Entry<String, Integer> entry : hash2.entrySet()) {
@@ -62,8 +58,7 @@ public class Solution {
     }
     
     public static void main(String[] args) throws NumberFormatException,Exception
-	{
-
+    {
         int sizeA = Integer.parseInt(input.readLine());
         String[] nextSplitA = input.readLine().split(" ");                          
          
@@ -76,6 +71,5 @@ public class Solution {
         {                           
             System.out.print(thisInt + " "); 
         }
-   
     }
-  }
+}
