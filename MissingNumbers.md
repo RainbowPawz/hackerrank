@@ -1,8 +1,8 @@
-Problem Statement
+# Problem Statement
 
 Numeros, The Artist, had two lists A and B, such that, B was a permutation of A. Numeros was very proud of these lists. Unfortunately, while transporting them from one exhibition to another, some numbers from List A got left out. Can you find out the numbers missing from A?
 
-Notes
+# Notes
 
 If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both the lists is the same. If that is not the case, then it is also a missing number.
 You have to print all the missing numbers in ascending order.
