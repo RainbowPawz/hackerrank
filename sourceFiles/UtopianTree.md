@@ -16,7 +16,7 @@ T lines follow. Each line contains an integer, N, that denotes the number of cyc
 
 For each test case, print the height of the Utopian Tree after N cycles.
 
-Sample Input #00:
+# Sample Input #00:
 
 2
 0
