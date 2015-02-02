@@ -21,23 +21,29 @@ Sample Input #00:
 2
 0
 1
-Sample Output #00:
+
+# Sample Output #00:
 
 1
 2
-Explanation #00: 
+
+# Explanation #00:
+
 There are 2 test cases. When N = 0, the height of the tree remains unchanged. When N = 1, i.e. after 1st cycle, the tree doubles its height as it's planted at the onset of spring.
 
-Sample Input: #01:
+# Sample Input: #01:
 
 2
 4
 3
-Sample Output: #01:
+
+# Sample Output: #01:
 
 7
 6
-Explanation: #01: 
+
+# Explanation: #01: 
+
 There are 2 testcases.
 
 N = 4:the height of the tree after 4th cycle = 7
