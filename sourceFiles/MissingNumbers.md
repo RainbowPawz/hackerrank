@@ -16,22 +16,26 @@ This is followed by n space separated integers that make up the first list.
 m - the size of the second list 
 This is followed by m space separated integers that make up the second list.
 
-Output Format 
+# Output Format 
+
 Output the missing numbers in ascending order
 
-Constraints 
+# Constraints 
+
 1<= n,m <= 1000010 
 1 <= x <= 10000 , x ∈ B 
 Xmax - Xmin < 101
 
-Sample Input
+# Sample Input
 
 10
 203 204 205 206 207 208 203 204 205 206
 13
 203 204 204 205 206 207 205 208 203 206 205 206 204
-Sample Output
+
+#Sample Output
 
 204 205 206
-Explanation 
+
+#Explanation 
 204 is present in both the arrays. Its frequency in A is 2, while its frequency in B is 3. Similarly, 205 and 206 occur twice in A, but thrice in B. So, these three numbers are our output. Rest of the numbers have same frequency in both the lists.
