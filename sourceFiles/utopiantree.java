@@ -4,12 +4,8 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
-
-    /* 0  1  2  3  4  5  6  7  8  9  10  11  12
-       1  2  3  6  7  14 15 30 31 62 63  126 125 
-         1  1  3  1  7  1  15  1 31 1  63   1       current
-           2  4     8     16    32 */
+public class Solution 
+{
     static int getValues(int N, int value)
     {
         int index = N;
